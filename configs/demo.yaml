@@ -1,0 +1,13 @@
+# Architecture and loss settings only; no industrial equipment calibration.
+forecast:
+  dimension: 128
+  heads: 4
+  relational_layers: 2
+  temporal_layers: 2
+  torque_loss_weight: 0.20
+  recovery_loss_weight: 0.10
+ppo:
+  hidden: [512, 512, 256]
+  clip: 0.20
+  value_weight: 0.5
+  entropy_weight: 0.01

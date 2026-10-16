@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this core reference implementation. Confirm the publication year and any eventual DOI before citing the related paper."
+type: software
+title: "PHGT and reward-guided PPO: core algorithm reference implementation"
+version: 0.1.0
+authors:
+  - family-names: Xiao
+    given-names: Bin
+abstract: "An operator-level reference implementation. Related manuscript: Submitted to JMS; GitHub profile entry [8]. Year and DOI are TO_VERIFY. No published DOI is claimed."

@@ -1,0 +1,46 @@
+# Local review deliverables are not public release material.
+PUBLIC_RELEASE_REPORT.md
+PROFILE_LINK_SNIPPET.md
+.local-review/
+
+# Data, results and serialized model state.
+Data/
+DataExperiment/
+outputs/
+results/
+checkpoints/
+*.csv
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.safetensors
+*.log
+
+# Credentials, tooling and build residue.
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+*.tmp
+*.bak
+*.backup*
